@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: 111111
+    url: jdbc:mysql://localhost:3306/poetry
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  type-aliases-package: com.lucene.pojo
+  mapper-locations: classpath:com/lucene/mapper/*Mapper.xml
